@@ -1,0 +1,64 @@
+/* Start Global Rules  */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*mobile screen*/
+@media (max-width: 767px) {
+  .container {
+    width: 750px;
+  }
+}
+/*small screen*/
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/*medium screen*/
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/*large screen*/
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules  */
